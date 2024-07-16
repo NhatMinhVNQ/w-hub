@@ -1,12 +1,12 @@
-# World Hub Script
-## Check Working Script
+# 🐬World Hub Script🐬
+## Check Working Scripts
+# 🟢 Working
 
-        [🟢]
-------------------------------------
 [🟢] Still Active
 
 [🔴] Inactive 
-------------------------------------
+
+
 **Discord**
 [(Click Here)](<https://discord.com/invite/psE8EUa9kg>)
 
