@@ -8,5 +8,5 @@ if gameId == tappingGameId then
 elseif gameId == bloxGameId then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/NhatMinhVNQ/w-hub/main/Blox%20Fruit.lua"))()
 else
-    warn("Sorry this game not supported. try to join supported games. More in discord.")
+    game.Players.LocalPlayer:Kick("Bro, My Script Support Only Blox Fruits and Please Wait Me Update New Game")
 end
