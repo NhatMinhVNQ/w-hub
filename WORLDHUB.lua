@@ -11,7 +11,7 @@ if gameId == tappingGameId then
 elseif gameId == UtdGameId then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/NhatMinhVNQ/w-hub/main/Ultimate%20Tower%20Defense.lua"))()
 elseif gameId == ADSGameId then
-    loadstring(game:HttpGet(""))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NhatMinhVNQ/w-hub/main/Anime%20Destiny%20Simulator.lua"))()
 elseif gameId == w1GameId then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TrumMocBoc/VnWorldHub/main/Vn%20World%20Hub.lua"))()
 elseif gameId == w2GameId then
