@@ -12,5 +12,5 @@ elseif gameId == UtdGameId then
 elseif gameId == w3GameId then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TrumMocBoc/VnWorldHub/main/Vn%20World%20Hub.lua"))()
 else
-    game.Players.LocalPlayer:Kick("Game Not Support, Join Discord: discord.gg/psE8EUa9kg")
+    game.Players.LocalPlayer:Kick("Game Not Support,")
 end
