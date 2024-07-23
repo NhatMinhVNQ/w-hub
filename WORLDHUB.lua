@@ -6,7 +6,7 @@ local w2GameId = 4442272183
 local w3GameId = 7449423635
 
 if gameId == tappingGameId then
-    loadstring(game:HttpGet(""))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NhatMinhVNQ/w-hub/main/Tapping%20Legends%20Final.lua"))()
 if gameId == w1GameId then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TrumMocBoc/VnWorldHub/main/Vn%20World%20Hub.lua"))()
 if gameId == w2GameId then
