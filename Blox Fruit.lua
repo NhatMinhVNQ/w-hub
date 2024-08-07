@@ -1,7 +1,7 @@
-if game.PlaceId == 6897167394 then
+if game.PlaceId == 5902977746 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/FrostLua/Krakles/main/ElgatoHub/FS.lua"))();
 elseif game.PlaceId == 10260193230 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/FrostLua/Krakles/main/ElgatoHub/MM.lua"))();
 else
-  plr:Kick("Đéo support Cook!!")
-end
+  kick("Game is not supported!");
+end;
