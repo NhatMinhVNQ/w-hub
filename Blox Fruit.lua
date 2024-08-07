@@ -1,8 +1,7 @@
-local player = game.Players.LocalPlayer
-
-if(game.PlaceId == 15705682243) then
-      print("loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhdaynebro1/Dev-NhatMinh/main/Tapping%20Legends%20Final.lua"))()")    
-
+if game.PlaceId == 6897167394 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/FrostLua/Krakles/main/ElgatoHub/FS.lua"))();
+elseif game.PlaceId == 10260193230 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/FrostLua/Krakles/main/ElgatoHub/MM.lua"))();
 else
-      player:Kick("not Support game")
-end
+  warn("Game is not supported!");
+end;
