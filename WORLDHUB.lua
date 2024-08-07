@@ -1,3 +1,4 @@
+local gameId = game.PlaceId
 local tappingGameId = 15705682240
 local UtdGameId = 5902977740
 
