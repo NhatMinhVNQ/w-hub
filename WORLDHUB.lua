@@ -7,5 +7,5 @@ if gameId == tappingGameId then
 elseif gameId == UtdGameId then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/NhatMinhVNQ/w-hub/main/Ultimate%20Tower%20Defense.lua"))()
     
-        game.Players.LocalPlayer:Kick("Scripts Down Update, Sorry everyone...,")
+        game.Players.LocalPlayer:Kick("Not Support Game")
 end
