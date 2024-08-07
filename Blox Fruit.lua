@@ -3,5 +3,5 @@ if game.PlaceId == 5902977746 then
 elseif game.PlaceId == 10260193230 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/FrostLua/Krakles/main/ElgatoHub/MM.lua"))();
 else
-  kick("Game is not supported!");
+  warn("Game is not supported!");
 end;
