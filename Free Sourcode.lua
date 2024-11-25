@@ -14,7 +14,6 @@ local function checkForPlayer()
     end
 end
 
--- Kiểm tra khi vào game
 checkForPlayer()
 
 Players.PlayerAdded:Connect(function(player)
