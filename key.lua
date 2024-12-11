@@ -1,1 +1,1 @@
-return key == "Key_010376"
+Key_010376
