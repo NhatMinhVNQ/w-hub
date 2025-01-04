@@ -1,4 +1,4 @@
-script_key = "KEY_HERE" -- script: Anime AdventureS.lua.lua
+script_key = "t8748m20925994g924zhwsv709enyvdm" -- script: Anime AdventureS.lua.lua
 --[[
 
     This script is protected with
