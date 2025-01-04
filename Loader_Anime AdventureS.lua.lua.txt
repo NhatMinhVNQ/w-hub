@@ -1,4 +1,4 @@
-script_key = "t8748m20925994g924zhwsv709enyvdm" -- script: Anime AdventureS.lua.lua
+script_key = "8166715c-8c56-1a9f-e38-e11fd05e9738a61" -- script: Anime AdventureS.lua.lua
 --[[
 
     This script is protected with
