@@ -1,1 +1,1 @@
-KEY_GoodBye
+KEY_NHATMINH
