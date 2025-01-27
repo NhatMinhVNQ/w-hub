@@ -1,3 +1,4 @@
+return {
     ["Default Isle"] = Vector3.new(787.944763, 124.980827, -233.17717),
     ["Vulaco Isle"] = Vector3.new(230.582993, 125.957428, 919.024658),
     ["Snowy Blome"] = Vector3.new(2326.71289, 127.111076, 338.652771),
@@ -10,3 +11,4 @@
     ["Rough Water Island"] = Vector3.new(16.908577, 127.651413, 2765.45288),
     ["Stormbreak Island"] = Vector3.new(-2130.62207, 128.939178, 1745.71765,),
     ["Ghost Ship"] = Vector3.new(-1273.56018, 127.358421, 1233.40137),
+}
