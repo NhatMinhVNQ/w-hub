@@ -1,76 +1,26 @@
-print('Loading Linoria UI v2.18.1')
+local ScreenGui = Instance.new("ScreenGui")
+local ImageButton = Instance.new("ImageButton")
+local UICorner = Instance.new("UICorner")
+local UIStroke = Instance.new("UIStroke")
 
--- violin-suzutsuki i love you !!!!!!
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
-local InputService = game:GetService('UserInputService')
-local TextService = game:GetService('TextService')
-local CoreGui = game:GetService('CoreGui')
-local Teams = game:GetService('Teams')
-local Players = game:GetService('Players')
-local RunService = game:GetService('RunService')
-local TweenService = game:GetService('TweenService')
-local RenderStepped = RunService.RenderStepped
-local LocalPlayer = Players.LocalPlayer
-local camera = workspace.CurrentCamera
-local Mouse = LocalPlayer:GetMouse()
-
-local ProtectGui = protectgui or (syn and syn.protect_gui) or function() end
-
-local ScreenGui = Instance.new('ScreenGui')
-ScreenGui.Name = "LinoriaGui"
-ProtectGui(ScreenGui)
-ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Global
-if gethui then
-	ScreenGui.Parent = gethui()
-elseif game.CoreGui:FindFirstChild('RobloxGui') then
-	ScreenGui.Parent = game.CoreGui:FindFirstChild('RobloxGui')
-else
-	ScreenGui.Parent = game.CoreGui
-end
-
-local UICorner1 = Instance.new("UICorner")
-local UICorner2 = Instance.new("UICorner")
-local backgroundFrame = Instance.new("Frame")
-local tempestButton = Instance.new("TextButton")
-local UIPadding = Instance.new("UIPadding")
-
-backgroundFrame.Name = "backgroundFrame"
-backgroundFrame.Parent = ScreenGui
-backgroundFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-backgroundFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-backgroundFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-backgroundFrame.BorderSizePixel = 0
-backgroundFrame.Position = UDim2.new(0.9, 0, 0.5, 0)
-backgroundFrame.Size = UDim2.new(0, 100, 0, 100)
-
-UICorner1.Parent = backgroundFrame
-UICorner2.Parent = tempestButton
-
-tempestButton.Name = "tempestButton"
-tempestButton.Parent = backgroundFrame
-tempestButton.AnchorPoint = Vector2.new(0.5, 0.5)
-tempestButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-tempestButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-tempestButton.BorderSizePixel = 0
-tempestButton.Position = UDim2.new(0.5, 0, 0.5, 0)
-tempestButton.Size = UDim2.new(1, 0, 1, 0)
-tempestButton.Font = Enum.Font.PermanentMarker
-tempestButton.Text = "Tempest Hub"
-tempestButton.TextColor3 = Color3.fromRGB(75, 0, 130)
-tempestButton.TextScaled = true
-tempestButton.TextSize = 14.000
-tempestButton.TextWrapped = true
-
-UIPadding.Parent = backgroundFrame
-UIPadding.PaddingTop = UDim.new(0.1, 0)
-UIPadding.PaddingLeft = UDim.new(0.1, 0)
-UIPadding.PaddingRight = UDim.new(0.1, 0)
-UIPadding.PaddingBottom = UDim.new(0.1, 0)
-
-tempestButton.Activated:Connect(function()
+ImageButton.Parent = ScreenGui
+ImageButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton.BorderSizePixel = 0
+ImageButton.Position = UDim2.new(0.100739375, 0, 0.121457487, 0)
+ImageButton.Size = UDim2.new(0, 60, 0, 60)
+ImageButton.Image = "rbxassetid://123456789"
+ImageButton.MouseButton1Click:Connect(function()
 	local windowFrame = ScreenGui.windowFrame
 	windowFrame.Visible = not windowFrame.Visible
 end)
+
+UICorner.Parent = ImageButton
+
+UIStroke.Color = Color3.fromRGB(255, 255, 255)
+UIStroke.Parent = ImageButton
 
 local Toggles = {}
 local Options = {}
