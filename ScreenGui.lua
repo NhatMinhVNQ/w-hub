@@ -33,7 +33,7 @@ v23.MouseButton1Down:Connect(function()
         v25.Rate = 0;
     end);
     v47:Play();
-    game:GetService("VirtualInputManager"):SendKeyEvent(true, Enum.KeyCode.RightControl, false, game);
+    game:GetService("VirtualInputManager"):SendKeyEvent(true, Enum.KeyCode.End, false, game);
     v47.Completed:Connect(function()
         v23.Rotation = 0;
     end);
