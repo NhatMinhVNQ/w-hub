@@ -19,7 +19,7 @@ ImageButton.Draggable = true
 
 -- Xử lý sự kiện click
 ImageButton.MouseButton1Click:Connect(function()
-    game:GetService("VirtualInputManager"):SendKeyEvent(true, Enum.KeyCode.End, false, game)
+    game:GetService("VirtualInputManager"):SendKeyEvent(true, Enum.KeyCode.LeftControl, false, game)
 end)
 
 -- Tạo hiệu ứng góc bo và viền
